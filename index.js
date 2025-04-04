@@ -49,12 +49,12 @@ function displayInstruction(chosenNumber){
     chosenNumber = parseInt(chosenNumber);//convert to int
         if(chosenNumber>rdn){
             //ajoute la class moins
-            instruction.textContent = "#" + count + "( " + chosenNumber + " ) It's smaller !";
+            instruction.textContent = "#" + count + "( " + chosenNumber + " ) It's lower !";
             instruction.className = "instruction moins";
         }
         else if(chosenNumber<rdn){
             //ajoute la class plus
-            instruction.textContent = "#" + count + "( " + chosenNumber + " ) It's greather !";
+            instruction.textContent = "#" + count + "( " + chosenNumber + " ) It's higher !";
             instruction.className = "instruction plus";
         }
         else{
