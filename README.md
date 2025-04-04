@@ -27,7 +27,7 @@ The goal: find the exact number in as few tries as possible!
 git clone https://github.com/your-username/just-price.git
 cd just-price
 ```
-### Just open the index.html file in your browser:
+### 2. Just open the index.html file in your browser:
 ```bash
 open index.html
 ```
